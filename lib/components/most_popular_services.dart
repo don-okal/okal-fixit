@@ -16,7 +16,7 @@ class MostPopularServices extends StatelessWidget {
       padding: const EdgeInsets.all(8.0),
       child: Container(
         height: PhoneSize.phoneHeight(context) * 0.15,
-        width: PhoneSize.phonewidth(context) * 0.52,
+        width: PhoneSize.phonewidth(context) * 0.46,
         decoration: BoxDecoration(
           boxShadow: [
             BoxShadow(

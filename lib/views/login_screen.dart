@@ -114,7 +114,7 @@ class LoginScreen extends StatelessWidget {
                     ),
                     TextButton(
                       onPressed: () =>
-                          AppNavigation.push(context, const RegisterScreen()),
+                          AppNavigation.pushR(context, const RegisterScreen()),
                       child: const Text(
                         'SIGN UP',
                         style:

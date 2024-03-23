@@ -1,5 +1,5 @@
 import 'package:fixit/components/auth_button.dart';
-import 'package:fixit/components/bottom_nav_bar.dart';
+import 'package:fixit/components/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 import '../src/data/app_navigation.dart';
@@ -40,7 +40,7 @@ class SuccessScreen extends StatelessWidget {
                   title: 'CONTINUE',
                   onTap: () => AppNavigation.push(
                         context,
-                        const BottomNav(),
+                        const CurvedNavBar(),
                       ),
                   isHollow: false)
             ],

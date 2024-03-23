@@ -53,7 +53,7 @@ class AuthDialog extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10)),
                 child: const Text(
                   "Try Again",
-                  style: TextStyle(color: Colors.white, fontSize: 22),
+                  style: TextStyle(color: Colors.white, fontSize: 20),
                 ),
               ),
             ),

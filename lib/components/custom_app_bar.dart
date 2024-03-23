@@ -23,12 +23,13 @@ class CustomAppBar extends StatelessWidget {
                 'welcome back',
                 style: TextStyle(
                   fontFamily: 'ReadexPro',
-                  fontSize: 12,
+                  fontSize: 10,
                 ),
               ),
               Text(
                 'godfather',
                 style: TextStyle(
+                  fontWeight: FontWeight.bold,
                   fontFamily: 'ReadexPro',
                   fontSize: 12,
                 ),

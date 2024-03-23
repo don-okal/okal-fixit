@@ -1,5 +1,7 @@
 import 'package:fixit/components/custom_divider.dart';
+import 'package:fixit/src/data/app_navigation.dart';
 import 'package:fixit/src/data/app_size.dart';
+import 'package:fixit/views/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
 
@@ -112,16 +114,25 @@ class RegisterScreen extends StatelessWidget {
                     ],
                   ),
                 ),
-                const Row(
+                Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text(
+                    const Text(
                       'Already Have Account?',
                       style: TextStyle(fontSize: 15, color: Color(0xff8A8989)),
                     ),
-                    Text(
-                      ' Login Here',
-                      style: TextStyle(fontSize: 15, color: Color(0xff1B3A56)),
+                    GestureDetector(
+                      onTap: () {
+                        AppNavigation.pushR(
+                          context,
+                          const LoginScreen(),
+                        );
+                      },
+                      child: const Text(
+                        ' Login Here',
+                        style:
+                            TextStyle(fontSize: 15, color: Color(0xff1B3A56)),
+                      ),
                     ),
                   ],
                 ),

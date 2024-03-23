@@ -65,7 +65,7 @@ class ElectricsScreen extends StatelessWidget {
                     service: 'water',
                   ),
                   TechniciansCard(
-                    image: 'assets/images/the godfather.jpeg',
+                    image: 'assets/images/Don.jpg',
                     name: 'ahmed ramadan',
                     city: 'cairo',
                     phoneNumber: '0101195959',

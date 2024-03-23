@@ -79,7 +79,10 @@ class ServicesScreen extends StatelessWidget {
                 image: 'assets/services/Electricity.png',
                 service: 'Electricity',
                 onTap: () {
-                  AppNavigation.push(context, const ElectricsScreen());
+                  AppNavigation.push(
+                    context,
+                    const ElectricsScreen(),
+                  );
                 },
               ),
               Services(
